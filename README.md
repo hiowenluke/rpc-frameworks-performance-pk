@@ -17,15 +17,14 @@ npm install
 node index.js
 ```
 
-For each RPC frameworks:
+This will do the following for each RPC framework:
 
-1\. Start the server
-
-2\. In the client, call the remote function and get the result
-
-3\. Perform the 2nd step 10000 times
-
-4\. Calculate the average times per second
+```sh
+1. Start the server
+2. In the client, call the remote function and get the result
+3. Perform the 2nd step 10000 times
+4. Calculate the average times per second
+```
 
 ## Results
 
