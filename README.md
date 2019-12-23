@@ -3,6 +3,17 @@
 
 If you care about the performance of the RPC frameworks, this PK can save you time. Yes, I spend a lot of time in this area, but now you do not having to.
 
+## Server Environment
+
+This PK requires [Redis](https://redis.io). If you haven't installed it, please perform the following steps to install it in docker.
+
+1\. [Install Docker](https://docs.docker.com/v17.09/engine/installation/#supported-platforms) (Docker CE recommended)
+
+2\. Install Redis in Docker  
+1\) Install: `docker pull redis`  
+2\) Start: `docker run --restart=always --name redis -d -p 6379:6379 -it redis redis-server`   
+
+
 ## Install
 
 ```sh
@@ -23,7 +34,6 @@ This will do the following for each RPC framework:
 1. Start the server
 2. In the client, call the remote function and get the result
 3. Perform the 2nd step 10000 times
-4. Calculate the average times per second
 ```
 
 ## Results

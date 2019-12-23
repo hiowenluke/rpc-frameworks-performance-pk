@@ -1,6 +1,6 @@
 {
   "name": "rpc-frameworks-performance-pk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "dependencies": {
     "@grpc/proto-loader": "^0.5.3",
     "beasy": "^0.5.1",
-    "booms": "^1.3.3",
+    "booms": "^1.5.5",
     "grpc": "^1.24.2",
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0",
