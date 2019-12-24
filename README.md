@@ -3,7 +3,7 @@
 
 If you care about the performance of the RPC frameworks, this PK can save you time. Yes, I spend a lot of time in this area, but now you do not having to.
 
-## Server Environment
+## Prepare
 
 This PK requires [Redis](https://redis.io). If you haven't installed it, please perform the following steps to install it in docker.
 
