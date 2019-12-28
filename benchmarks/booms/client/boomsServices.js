@@ -2,7 +2,7 @@
 const servers = {
     "s1": {
         "host": "localhost",
-        "port": 50051
+        "port": 30201
     }
 };
 

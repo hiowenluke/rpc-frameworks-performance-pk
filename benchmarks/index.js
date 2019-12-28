@@ -10,7 +10,7 @@ be.compare([
 	},
 
 	{
-		name: 'booms',
+		name: 'Booms',
 		before: './booms/server',
 		start: './booms/client',
 	},
