@@ -14,7 +14,7 @@
   "dependencies": {
     "@grpc/proto-loader": "^0.5.3",
     "beasy": "^0.5.1",
-    "booms": "^1.5.5",
+    "booms": "^1.6.0",
     "grpc": "^1.24.2",
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0",

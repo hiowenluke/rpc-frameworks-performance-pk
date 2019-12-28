@@ -28,11 +28,11 @@ be.compare([
 	// 			start: './sofa-rpc-node/client',
 	// 		},
 
-	// The RPC based on socket.io is too slow. Change the times to 1000 before run it.
+	// The RPC based on socket.io is too slow. Change the times above to 1000 before run it.
 	// 		{
-	// 			name: 'socket.io',
-	// 			before: './socket.io/server',
-	// 			start: './socket.io/client',
+	// 			name: 'socket.io-rpc',
+	// 			before: './socket.io-rpc/server',
+	// 			start: './socket.io-rpc/client',
 	// 		},
 
 ], times);
