@@ -1,6 +1,6 @@
 
 const be = require('beasy')();
-const times = 10000;
+const times = 1000;
 
 be.compare([
 	{
